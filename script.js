@@ -107,8 +107,8 @@ function pageTwo() {
         scrollTrigger: {
             trigger: "#page2",
             scroller: "#main",
-            start: "top 50%",
-            end: "top -30%",
+            start: "top 60%",
+            end: "top 0%",
             scrub: 1
         }
     })
