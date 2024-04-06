@@ -55,6 +55,7 @@ function sound() {
     sound.addEventListener("click", function () {
         if (click == true) {
             aud.play()
+            aud.loop = true
             spann.textContent = "off"
             click = false
         }
