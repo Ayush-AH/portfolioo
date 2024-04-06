@@ -50,7 +50,7 @@ document.querySelector("#text").addEventListener("mouseleave", function (dets) {
 function sound() {
     var sound = document.querySelector("#sound h2")
     var spann = document.querySelector("#sound h2 span")
-    var aud = new Audio("https://heycusp.com/assets/main-theme.6603262e.mp3")
+    var aud = new Audio("./dark-beginning-135858.mp3")
     var click = true
     sound.addEventListener("click", function () {
         if (click == true) {
@@ -174,4 +174,17 @@ footer()
 
 document.querySelector("#mail").addEventListener("click",function(event){
     window.location.href = "mailto:ayushahirwar6673@gmail.com"
+})
+
+
+document.querySelector("#page3d").addEventListener("mouseenter",function(){
+    gsap.to(".mousefollower",{
+        opacity:0
+    })
+})
+
+document.querySelector("#page3d").addEventListener("mouseleave",function(){
+    gsap.to(".mousefollower",{
+        opacity:1
+    })
 })
