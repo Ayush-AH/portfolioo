@@ -177,15 +177,3 @@ document.querySelector("#mail").addEventListener("click",function(event){
     window.location.href = "mailto:ayushahirwar6673@gmail.com"
 })
 
-
-document.querySelector("#page3d").addEventListener("mouseenter",function(){
-    gsap.to(".mousefollower",{
-        opacity:0
-    })
-})
-
-document.querySelector("#page3d").addEventListener("mouseleave",function(){
-    gsap.to(".mousefollower",{
-        opacity:1
-    })
-})
