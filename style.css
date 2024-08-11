@@ -403,12 +403,15 @@ width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
 }
-#ig #gif{
+#ig a{
     position: absolute;
     height: 35%;
+    z-index: 2;
+}
+#ig #gif{
+    height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    z-index: 1;
 }
 #elem2{
     width: 40%;
@@ -500,12 +503,15 @@ width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
 }
-#ig2 #gif2{
+#ig2 a{
     position: absolute;
     height: 35%;
+    z-index: 2;
+}
+#ig2 #gif2{
+    height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    z-index: 1;
 }
 #page4{
     min-height: 100vh;
@@ -763,8 +769,11 @@ width: 100%;
     width: 40%;
     border-radius: 5px;
 }
-#ig #gif{
+#ig a{
     height: 30%;
+}
+#ig #gif{
+    height: 100%;
 }
 #elem2{
     width: 100%;
@@ -820,8 +829,11 @@ width: 100%;
     width: 45%;
     border-radius: 5px;
 }
-#ig2 #gif2{
+#ig2 a{
     height: 30%;
+}
+#ig2 #gif2{
+    height: 100%;
 }
 #page4{
     min-height: 50vh;
